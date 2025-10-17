@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+    color: #f8f8ff;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-family: "Hubot sans", sans-serif;
+    font-weight: 500;
+}
+.container{
+    margin: 100px 40px;
+}
+.favorite{
+    margin: 40px 20px;
+}
+.favorite-color p{
+    color: cornflowerblue;
+}
