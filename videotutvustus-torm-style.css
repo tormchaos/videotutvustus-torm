@@ -1,9 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: dimgray;
     color: #f8f8ff;
     text-align: center;
+}
+body{
+    background-color: dimgray;
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 h1,
 h2,
@@ -11,12 +17,28 @@ h3,
 h4,
 h5,
 h6,
-p{
+p,
+a{
     font-family: "Hubot sans", sans-serif;
     font-weight: 500;
 }
+a{
+    text-decoration: none;
+    background-color: #f8f8ff;
+    border: 2px solid rgb(70, 70, 70);
+    color: dimgrey;
+    padding: 20px 50px;
+    border-radius: 15px;
+    margin: 30px 10px;
+    text-transform: uppercase;
+}
+video{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    border: 2px solid rgb(70, 70, 70);
+}
 .container{
-    margin: 100px 40px;
+    margin: 50px 40px 80px;
 }
 .favorite{
     margin: 40px 20px;
